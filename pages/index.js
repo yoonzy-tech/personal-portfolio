@@ -1,14 +1,14 @@
 import Head from 'next/head';
 import { BsFillMoonStarsFill } from 'react-icons/bs';
 import { AiFillTwitterCircle, AiFillLinkedin, AiFillInstagram } from 'react-icons/ai';
+import { useState } from 'react';
 import Image from 'next/legacy/image';
 import dev from '../public/dev-pic.png';
 import web0 from '../public/web0.png';
 import web1 from '../public/web1.png';
 import web2 from '../public/web2.png';
 import web3 from '../public/web3.png';
-
-import { useState } from 'react';
+import web4 from '../public/web4.png';
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -109,14 +109,16 @@ export default function Home() {
               </a>
             </div>
             <div className='basis-1/3 grow shrink-0'>
-              <Image src={web0} className='rounded-lg object-cover' width={'160%'} height={'90%'} layout='responsive' />
-            </div>
-            {/* <div className='basis-1/3 grow shrink-0'>
-              <Image src={web1} className='rounded-lg object-cover' width={'160%'} height={'90%'} layout='responsive' />
+              <a href="https://yoonzy-tech.github.io/scissors-paper-stone-game/">
+              <Image src={web4} className='rounded-lg object-cover' width={'160%'} height={'90%'} layout='responsive' />
+              </a>
             </div>
             <div className='basis-1/3 grow shrink-0'>
-              <Image src={web1} className='rounded-lg object-cover' width={'160%'} height={'90%'} layout='responsive' /> 
-            </div> */}
+              <Image src={web0} className='rounded-lg object-cover' width={'160%'} height={'90%'} layout='responsive' />
+            </div>
+            <div className='basis-1/3 grow shrink-0'>
+              <Image src={web0} className='rounded-lg object-cover' width={'160%'} height={'90%'} layout='responsive' /> 
+            </div>
           </div>
         </section>
       </main>
