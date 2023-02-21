@@ -64,13 +64,13 @@ export default function Home() {
           {/* Social Media Section */}
 
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
-            <a href='https://twitter.com/yoon_tech'>
+            <a href='https://twitter.com/yoon_tech' target='_blank'>
               <AiFillTwitterCircle className='cursor-pointer dark:text-gray-200' />
             </a>
-            <a href='https://www.linkedin.com/in/ruby-chu-yun-syuan/'>
+            <a href='https://www.linkedin.com/in/ruby-chu-yun-syuan/' target='_blank'>
               <AiFillLinkedin className='cursor-pointer dark:text-gray-200' />
             </a>
-            <a href='https://www.instagram.com/yoon_tech/'>
+            <a href='https://www.instagram.com/yoon_tech/' target='_blank'>
               <AiFillInstagram className='cursor-pointer dark:text-gray-200' />
             </a>
           </div>
@@ -94,22 +94,22 @@ export default function Home() {
 
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
             <div className='basis-1/3 grow shrink-0'>
-              <a href='https://yoonzy-tech.github.io/react-ubereats-clone/'>
+              <a href='https://yoonzy-tech.github.io/react-ubereats-clone/' target='_blank'>
                 <Image src={web1} className='rounded-lg object-cover' layout='responsive' width={'160%'} height={'90%'} />
               </a>
             </div>
             <div className='basis-1/3 grow shrink-0'>
-              <a href='https://yoonzy-tech.github.io/tea-cozy-flexbox/'>
+              <a href='https://yoonzy-tech.github.io/tea-cozy-flexbox/' target='_blank'>
                 <Image src={web2} className='rounded-lg object-cover' width={'160%'} height={'90%'} layout='responsive' />
               </a>
             </div>
             <div className='basis-1/3 grow shrink-0'>
-              <a href='https://yoonzy-tech.github.io/hotels_in_singapore_breadcrumb/'>
+              <a href='https://yoonzy-tech.github.io/hotels_in_singapore_breadcrumb/' target='_blank'>
                 <Image src={web3} className='rounded-lg object-cover' width={'160%'} height={'90%'} layout='responsive' />
               </a>
             </div>
             <div className='basis-1/3 grow shrink-0'>
-              <a href="https://yoonzy-tech.github.io/scissors-paper-stone-game/">
+              <a href='https://yoonzy-tech.github.io/scissors-paper-stone-game/' target='_blank'>
               <Image src={web4} className='rounded-lg object-cover' width={'160%'} height={'90%'} layout='responsive' />
               </a>
             </div>
