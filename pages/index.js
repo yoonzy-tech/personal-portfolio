@@ -41,7 +41,10 @@ export default function Home() {
               <li>
                 <a
                   className=' bg-white text-indigoDye font-bold px-4 py-2 rounded-md ml-8 md:bg-indigoDye md:text-white md:px-5 md:py-3 dark:bg-indigoDye dark:text-white'
-                  href=''
+                  href='Yun_Syuan_Chu_Ruby.pdf'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  alt="Yun Syuan Chu Ruby's Resume"
                   download
                 >
                   Resume
@@ -110,14 +113,14 @@ export default function Home() {
             </div>
             <div className='basis-1/3 grow shrink-0'>
               <a href='https://yoonzy-tech.github.io/scissors-paper-stone-game/' target='_blank'>
-              <Image src={web4} className='rounded-lg object-cover' width={'160%'} height={'90%'} layout='responsive' />
+                <Image src={web4} className='rounded-lg object-cover' width={'160%'} height={'90%'} layout='responsive' />
               </a>
             </div>
             <div className='basis-1/3 grow shrink-0'>
               <Image src={web0} className='rounded-lg object-cover' width={'160%'} height={'90%'} layout='responsive' />
             </div>
             <div className='basis-1/3 grow shrink-0'>
-              <Image src={web0} className='rounded-lg object-cover' width={'160%'} height={'90%'} layout='responsive' /> 
+              <Image src={web0} className='rounded-lg object-cover' width={'160%'} height={'90%'} layout='responsive' />
             </div>
           </div>
         </section>
