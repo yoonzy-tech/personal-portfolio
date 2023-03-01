@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import { BsFillMoonStarsFill } from 'react-icons/bs';
-import { AiFillTwitterCircle, AiFillLinkedin, AiFillInstagram } from 'react-icons/ai';
+import { AiFillGithub, AiFillTwitterCircle, AiFillLinkedin, AiFillInstagram } from 'react-icons/ai';
+
 import { useState } from 'react';
 import Image from 'next/legacy/image';
 import dev from '../public/dev-pic.png';
@@ -66,7 +67,7 @@ export default function Home() {
 
           {/* Social Media Section */}
 
-          <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
+          <div className='text-5xl flex justify-center gap-10 py-3 text-gray-600'>
             <a href='https://twitter.com/yoon_tech' target='_blank'>
               <AiFillTwitterCircle className='cursor-pointer dark:text-gray-200' />
             </a>
@@ -75,6 +76,9 @@ export default function Home() {
             </a>
             <a href='https://www.instagram.com/yoon_tech/' target='_blank'>
               <AiFillInstagram className='cursor-pointer dark:text-gray-200' />
+            </a>
+            <a href='https://github.com/yoonzy-tech' target='_blank'>
+              <AiFillGithub className='cursor-pointer dark:text-gray-200' />
             </a>
           </div>
 
