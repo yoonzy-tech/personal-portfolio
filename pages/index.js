@@ -58,7 +58,7 @@ export default function Home() {
 
           <div className='text-center p-10'>
             <h2 className='text-5xl py-2 text-sky-700 font-medium md:text-6xl dark:text-sky-500'>Yoonzy</h2>
-            <h3 className='text-2xl py-2 dark:text-white font-medium'>Front-end Devloper.</h3>
+            <h3 className='text-2xl py-2 dark:text-white font-medium'>Self-taught Devloper.</h3>
             <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-slate-200'>
               Self-taught developer with basic user experience knowledge and make website alive with code. Get in touch with me if you
               wish to know more about my works and skills.
